@@ -209,10 +209,10 @@ img {
 }
 
 .chart__container {
-  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 50px 0 0;
   width: 100%;
 }
@@ -226,16 +226,17 @@ img {
   margin-bottom: 16px;
 }
 
+.coin-container {
+  display: flex;
+  align-items: center;
+}
+
 .coin__title {
-  display: block;
-  margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  margin-right: 5px;
 }
 
 .coin__symbol {
-  display: block;
-  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .coin__logo {
